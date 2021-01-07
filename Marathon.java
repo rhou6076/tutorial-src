@@ -9,7 +9,7 @@ public class Marathon {
             341, 273, 278, 329, 445, 402, 388, 275, 243, 334, 412, 393, 299,
             343, 317, 265
         };
-
+ 
         int idx = lowestTime(times);
         System.out.println("Fastest runner is " + names[idx] + " with a time of " + times[idx]);
         System.out.println("second fastest runner has a time of " + secondBestTime(times));
